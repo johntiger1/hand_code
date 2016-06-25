@@ -17,9 +17,7 @@ i.e. if you look at the code uploaded, the reason why we readLine 5 times is BEC
 In summary, what pySerial does is it REPLACES the serial monitor of Arduino, allowing us to get the data in python and thus be able to write it
 to a file, upload it etc.
 
-
-
-
+***END UPDATE
 
 @TODO:
 Implementing web stuff
