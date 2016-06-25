@@ -2,6 +2,22 @@
 measuring the potentiometers; visualizing the data
 
 
+***UPDATE JUNE 24
+Succesfully managed to start reading into python. Now we have the Arudino data in a more robust format.
+
+Key Insights: pySerial is NOT a complete replacement for Arduino. Instead it simply serves as an interface for reading from and 
+writing to a serial port. Thus, to do any interesting thing with it, the following steps are required:
+
+1) Write the Arduino program. Upload it to the board (via Arduino program).
+2) In python, import pyserial. Open the port, and simply use the readLine command to get what you would normally get from Serial Monitor into python.
+
+In summary, what pySerial does is it REPLACES the serial monitor of Arduino, allowing us to get the data in python and thus be able to write it
+to a file, upload it etc.
+
+
+
+
+
 @TODO:
 Implementing web stuff
 We want to get the readings from the arduino onto the web. This will be the first step in visualization
