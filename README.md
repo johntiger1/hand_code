@@ -2,7 +2,7 @@
 measuring the potentiometers; visualizing the data
 
 
-***UPDATE JUNE 24
+#***UPDATE JUNE 24
 
 Succesfully managed to start reading into python. Now we have the Arudino data in a more robust format.
 
