@@ -3,6 +3,7 @@ measuring the potentiometers; visualizing the data
 
 
 ***UPDATE JUNE 24
+
 Succesfully managed to start reading into python. Now we have the Arudino data in a more robust format.
 
 Key Insights: pySerial is NOT a complete replacement for Arduino. Instead it simply serves as an interface for reading from and 
