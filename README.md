@@ -11,6 +11,9 @@ writing to a serial port. Thus, to do any interesting thing with it, the followi
 1) Write the Arduino program. Upload it to the board (via Arduino program).
 2) In python, import pyserial. Open the port, and simply use the readLine command to get what you would normally get from Serial Monitor into python.
 
+More on ReadLine: note that this INTRICATELY LINKS the ARDUINO and the PYTHON program!
+i.e. if you look at the code uploaded, the reason why we readLine 5 times is BECAUSE we Serial.println() 5 times in the Arduino program
+
 In summary, what pySerial does is it REPLACES the serial monitor of Arduino, allowing us to get the data in python and thus be able to write it
 to a file, upload it etc.
 
