@@ -1,6 +1,9 @@
 # hand_code
 measuring the potentiometers; visualizing the data
 
+# June 27
+Git refresher -- commit makes the changes in the LOCAL repo, while push actually pushes it to the remote servr
+Began adding file code for python
 
 #***UPDATE JUNE 24
 
