@@ -1,6 +1,9 @@
 # hand_code
 measuring the potentiometers; visualizing the data
 
+# July 7
+Probably scrapping this as Andrew decided we're moving to using a different micrcontroller: pic16f1779 with different software
+
 # June 27
 Git refresher -- commit makes the changes in the LOCAL repo, while push actually pushes it to the remote servr
 Began adding file code for python
